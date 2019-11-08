@@ -7,7 +7,7 @@ public class Operacion {
     int valor1;
     int valor2;
 
-    public void veredicto(){
+    private void veredicto(){
         valor1 = Integer.parseInt(JOptionPane.showInputDialog("Inserte un numero: "));
         valor2 = Integer.parseInt(JOptionPane.showInputDialog("Inserte un numero: "));
 
